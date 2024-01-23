@@ -32,7 +32,7 @@
       height: 600px;
       text-align: center;
       background-size: 100% 100%;
-      
+
 
 
   }
@@ -93,7 +93,7 @@
   .welcome-section .welcome-items {
       background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
       background-repeat: no-repeat;
-      
+
       display: flex;
       justify-content: space-between;
       margin-bottom: 120px;
@@ -146,6 +146,47 @@
   }
 
   /* Place Section */
-  .place-section .place-items{
-    background-color: gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  .place-section .place-items {
+      background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+      text-align: center;
+      padding: 100px 0;
+      margin-bottom: 120px;
+  }
+
+  .place-section .place-items p {
+      color: #070211;
+      font-family: Inter;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 56px;
+      text-transform: capitalize;
+      margin-bottom: 48px;
+  }
+
+  .place-section .place-items p span {
+      color: #F00;
+      text-align: center;
+      font-family: Inter;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 56px;
+      /* 175% */
+      text-transform: capitalize;
+  }
+
+  .place-section .place-items .btn-join {
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      border-radius: 8px;
+      background: #F00;
+      border: none;
   }
