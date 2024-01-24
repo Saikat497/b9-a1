@@ -230,9 +230,34 @@
       width: 100%;
       height: 100%;
   }
-  .awesome-portfolio-section .row{
-    margin-bottom: 24px;
+
+  .awesome-portfolio-section .row {
+      margin-bottom: 24px;
   }
-  .awesome-portfolio-items{
-    margin-bottom: 120px;
+
+  .awesome-portfolio-items {
+      margin-bottom: 120px;
+  }
+
+  /* Newsletter Section */
+  .newsletter-section .newsletter-items {
+      border-radius: 16px;
+      background: rgba(255, 0, 0, 0.05);
+      text-align: center;
+  }
+
+  .newsletter-section .newsletter-items-form-btn {
+      display: flex;
+      
+  }
+  .newsletter-section .newsletter-items-form-btn .form{
+    margin: 0 auto;
+
+  }
+
+  .newsletter-section .newsletter-items-form-btn form input {
+      max-width: 440px;
+      border-radius: 50px;
+      background: #FFF;
+      padding: 25px;
   }
