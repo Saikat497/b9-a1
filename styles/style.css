@@ -50,6 +50,7 @@
 
 
 
+
   /* Header Section */
   header {
       margin-top: 50px;
@@ -219,6 +220,151 @@
       border: none;
   }
 
+  /* Comming Section */
+  .comming-soon .comming-soon-items {
+      display: flex;
+      gap: 80px;
+      justify-content: space-between;
+      text-align: left;
+      margin-bottom: 120px;
+      align-items: center;
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-text {
+      max-width: 640px;
+
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-text h4 {
+      color: #F00;
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-text h1 {
+      color: #070211;
+      font-family: Merriweather;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      text-transform: capitalize;
+      margin: 16px 50px 22px 0;
+
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-text p {
+      color: rgba(7, 2, 17, 0.60);
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-round-img {
+      max-width: 640px;
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-round-img img {
+      border: 14px solid #F00;
+      border-radius: 100%;
+      padding: 25px;
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-2024 {
+      max-width: 640px;
+      width: 100%;
+
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-2024 h1 {
+      color: #F00;
+      font-family: Inter;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+  }
+
+  .comming-soon .comming-soon-items .comming-soon-2024 p {
+      color: rgba(7, 2, 17, 0.60);
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      margin: 16px 0 40px 0;
+
+  }
+
+
+  /* Holidays Section */
+  .holidays-section .hoidays-items {
+      text-align: center;
+      margin-bottom: 120px;
+  }
+
+  .holidays-section .holidays-text {}
+
+  .holidays-section .holidays-text h4 {
+      color: #070211;
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+  }
+
+  .holidays-section .holidays-text h1 span {
+      color: #F00;
+      text-align: center;
+      font-family: Merriweather;
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+  }
+
+  .holidays-section .holidays-text h1 {
+      color: #070211;
+      font-family: Merriweather;
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      margin: 15px 0 25px 0;
+  }
+
+  .holidays-section .holidays-text p {
+      color: rgba(7, 2, 17, 0.60);
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+      width: 1050px;    
+      display: inline-block;
+  }
+  .holidays-section .holidays-girl{
+    background-image: url("../images/rectangle_1.png");
+    height: 430px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+  }
+
+  .holidays-section .holidays-red-bg{
+    background-image: url("../images/rectangle_2.png");
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
   /* Awesome Portfolio */
   .awesome-portfolio-section .awesome-portfolio-images {
       display: flex;
@@ -312,7 +458,8 @@
       font-weight: 500;
       line-height: normal;
   }
-  hr{
-    background: rgba(255, 255, 255, 0.15);
-    margin: 50px 0;
+
+  hr {
+      background: rgba(255, 255, 255, 0.15);
+      margin: 50px 0;
   }
